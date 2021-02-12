@@ -1,32 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Shadows+Into+Light&display=swap');
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content : center;
+  justify-content: center;
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
+
+
+
+}
+body {
+  background-color: #888684;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vh;
   pointer-events: none;
+}
+
+.button{
+  background-color: #f7a986;
+  border-radius: 40px;
+  font-family: 'Caveat', cursive;
+  align-self: center;
+  width: 50%;
+  font-size: 0.6em;
+  
+}
+
+p{
+  margin-left:2% ;
+  margin-right: 2%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
